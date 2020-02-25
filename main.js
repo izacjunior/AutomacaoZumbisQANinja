@@ -2,19 +2,15 @@
 var welcome = "Hello javaScript - Automação"
 document.getElementById("welcome").append(welcome)
 
-console.log("Hello javaScript - Automação")
+console.log(welcome)
 
-//variavaeis
+var idade = prompt("Qual a sua idade?")
 
-var number = 10;
-console.log(number)
-//Responsavel por trazer tipo da variavel
-console.log(typeof number)
+if(idade >= 17){
 
-var name= "Fernando"
-console.log(typeof name)
-
-var n1 = 10;
-var n2 = 20;
-console.log(n1 + n2);
-
+    console.log("Posso ir no show");
+}else if(idade >= 12){
+    console.log('Posso ir no show')
+}else{
+    console.log('show de Palhaço')
+}
